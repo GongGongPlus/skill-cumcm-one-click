@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学建模国赛一键建模"
+  short_description: "赛题丢进来，一键产出可审校论文、可复现代码与可验证图表"
+  default_prompt: "Use $cumcm-one-click to complete this mathematical modeling contest problem end to end: 请一键完成这道数学建模国赛题。"

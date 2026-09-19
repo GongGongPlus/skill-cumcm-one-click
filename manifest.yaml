@@ -1,5 +1,5 @@
 name: cumcm-one-click
-version: 0.3.0
+version: 0.4.0
 description: >
   Routing manifest for the end-to-end CUMCM / mathematical modeling contest skill.
   SKILL.md reads this file first, then loads only the static fragments and deep references needed for the active task.
@@ -73,3 +73,5 @@ references:
       path: references/ai-compliance.md
     - condition: final reviewer-style scoring, delivery audit, or completion checklist
       path: references/checklist.md
+    - condition: page-count overflow, DOCX/PDF generation pitfalls, formula typography fixes, number reconciliation, or first-hand delivery war stories
+      path: references/practice-lessons.md

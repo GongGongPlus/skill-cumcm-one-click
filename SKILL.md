@@ -118,6 +118,7 @@ metadata:
 | 图怎么选、配色、图注、图表密度 | `references/result-visualization.md` + `references/paper-depth-visual-density.md` |
 | 论文结构、摘要/结论规则、附录 | `references/paper-writing.md` |
 | 排版：字体/公式/OMML/图生成 | `references/typography-and-python-figures.md` + `references/word-latex-formulas.md` |
+| 页数压不下来、Word/PDF 生成报错、交付细节踩坑 | `references/practice-lessons.md` |
 | 当届官方页数/匿名/格式 | `references/paper-requirements.md`（顶部为当届快照，过期核对 mcm.edu.cn） |
 | 评审策略、赛程、交卷检查 | `references/judging-and-strategy.md` + `references/contest-insights.md` |
 | AI 工具声明与合规 | `references/ai-compliance.md` |
@@ -142,4 +143,6 @@ metadata:
 | Word 公式只是 `t_ij` 或 `$...$` 文本 | 转成真实 OMML 结构并运行 `verify_docx_math.py` |
 | 标题保留蓝色或 Word 默认字体 | 统一中文宋体、英文数字 Times New Roman，标题黑色，并运行字体审计 |
 | 未经人工核验的 AI 输出进入核心成果 | 记录使用、逐项核验，按当届规则生成声明和详情 PDF |
-
+| 正文超页就删模型内容 | 先砍与摘要重复的叙述、把含公式段落行距改为“最小值”、收紧标题间距；删模型内容是下策 |
+| 手工编辑生成的 docx | 改动回到源头（Markdown 或构建脚本），改完按构建链重跑，手工改动下次重建即丢失 |
+| 正文汇总数字与明细表加总不一致 | 交付前做数字对账，每个汇总数字都要能由论文表格或结果文件复现 |
